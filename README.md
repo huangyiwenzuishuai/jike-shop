@@ -1,1 +1,1 @@
-# jike-shop
+# jikeshop
