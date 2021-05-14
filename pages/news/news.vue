@@ -35,16 +35,7 @@
 					console.log(this.newslist)
 				}
 			}
-			
-		},
-		filters: {
-		    formatDate(data) {
-		        const date = new Date(data)
-		        console.log(date)
-		        const day = date.getMonth().toString().padStart(2, '0') + '-' + date.getDay().toString().padStart(2, '0')
-		        return date.getFullYear() + '-' + day
-		    }
-		},
+		}
 	}
 </script>
 
